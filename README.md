@@ -15,7 +15,16 @@ Based on ICAO Document 9303, Machine Readable Travel Documents, Seventh Edition 
 | Type2         | 2             | 36           | A-Z 0-9 <    | 
 | Type3         | 2             | 44           | A-Z 0-9 <    | 
 
-## Country Codes
+## Fields
+1. Caption
+2. Name of Holder
+3. Issuing State or Organization 
+4. Nationality
+5. Place of Birth
+6. Dates
 
+
+## Nationality
+### Country Codes
 1. Alpha 2 Codes
-2. Alpa 3 Codes
+2. Alpha 3 Codes
