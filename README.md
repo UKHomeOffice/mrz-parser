@@ -14,35 +14,35 @@ Work in Progress ...
 
 ## Type Format Characteristics and constraints
 
-| Format        | Line Span     | Line Length  | Characters   |
-| ------------- | ------------- | -----------  | -----------  |
-| Type1         | 3             | 30           | A-Z 0-9 <    | 
-| Type2         | 2             | 36           | A-Z 0-9 <    | 
-| Type3         | 2             | 44           | A-Z 0-9 <    | 
+| Format     | Lines     | Line Length  | 
+| ---------- | --------- | -----------  | 
+| Type 1     | 3         | 30           | 
+| Type 2     | 2         | 36           | 
+| Type 3     | 2         | 44           | 
 
 ## Type 1 format
 
 ### Line 1
 
-| Field                          | Mandatory | Description  |  Allowed Characters   | Min Length  | Max Length  |  
-| ------------------------------ | -------   |------------- |  -------------------  | ----------- | ----------- |  
-| Document Type                  | Y         |              |  A-Z                  | 1           | 2           |        
-| Issuing State or Organization  | Y         |              |  A-Z                  | 3           | 3           |        
-| Document Number                | Y         |              |  A-Z0-9               |             | 9           | 
+| Field                          | 
+| ------------------------------ | 
+| Document Type                  | 
+| Issuing State or Organization  | 
+| Document Number                | 
 
 ### Line 2
 
-| Field                          | Mandatory | Description  |  Allowed Characters   | Min Length  | Max Length  | 
-| ------------------------------ | -------   |------------- |  -------------------  | ----------- | ----------- | 
-| Birth Date                     | Y         |              |  0-9                  |  6          | 6           | 
-| Expiry Date                    | Y         |              |  0-9                  |  6          | 6           | 
-| Nationality                    | Y         |              |  A-Z                  |  3          | 3           | 
+| Field                          | 
+| ------------------------------ | 
+| Birth Date                     | 
+| Expiry Date                    | 
+| Nationality                    | 
 
 ### Line 3
 
-| Field                          | Mandatory | Description  |  Allowed Characters   | Min Length  | Max Length  | 
-| ------------------------------ | -------   |------------- |  -------------------  | ----------- | ----------- | 
-| Identifiers                    | Y         | Names        |  A-Z                  | 1           | 30          |        
+| Field                          | 
+| ------------------------------ | 
+| Identifiers                    | 
 
 
 
@@ -50,39 +50,39 @@ Work in Progress ...
 
 ### Line 1
 
-| Field                          | Mandatory | Description  |  Allowed Characters   | Min Length  | Max Length  |  
-| ------------------------------ | -------   |------------- |  -------------------  | ----------- | ----------- |  
-| Document Type                  | Y         |              |  A-Z                  | 1           | 2           |        
-| Issuing State or Organization  | Y         |              |  A-Z                  | 3           | 3           |        
-| Identifiers                    | Y         | Names        |  A-Z                  | 1           | 31          |        
+| Field                          | 
+| ------------------------------ | 
+| Document Type                  | 
+| Issuing State or Organization  | 
+| Identifiers                    | 
 
 ### Line 2
 
-| Field                          | Mandatory | Description  |  Allowed Characters   | Min Length  | Max Length  | 
-| ------------------------------ | -------   |------------- |  -------------------  | ----------- | ----------- | 
-| Document Number                | Y         |              |  A-Z0-9               |             | 9           | 
-| Nationality                    | Y         |              |  A-Z                  |  3          | 3           | 
-| Birth Date                     | Y         |              |  0-9                  |  6          | 6           | 
-| Expiry Date                    | Y         |              |  0-9                  |  6          | 6           | 
+| Field                          | 
+| ------------------------------ | 
+| Document Number                | 
+| Nationality                    | 
+| Birth Date                     | 
+| Expiry Date                    | 
 
 ## Type 3 format
 
 ### Line 1
 
-| Field                          | Mandatory | Description  |  Allowed Characters   | Min Length  | Max Length  | Format | 
-| ------------------------------ | -------   |------------- |  -------------------  | ----------- | ----------- | ------ | 
-| Document Type                  | Y         |              |  A-Z                  | 1           | 2           |        |
-| Issuing State or Organization  | Y         |              |  A-Z                  | 3           | 3           |        |
-| Identifiers                    | Y         | Names        |  A-Z                  | 1           | 39          |        |
+| Field                          | 
+| ------------------------------ | 
+| Document Type                  | 
+| Issuing State or Organization  | 
+| Identifiers                    | 
 
 ### Line 2
 
-| Field                          | Mandatory | Description  |  Allowed Characters   | Min Length  | Max Length  | 
-| ------------------------------ | -------   |------------- |  -------------------  | ----------- | ----------- | 
-| Document Number                | Y         |              |  A-Z0-9               |             | 9           | 
-| Nationality                    | Y         |              |  A-Z                  |  3          | 3           | 
-| Birth Date                     | Y         |              |  0-9                  |  6          | 6           | 
-| Expiry Date                    | Y         |              |  0-9                  |  6          | 6           | 
+| Field                          | 
+| ------------------------------ | 
+| Document Number                | 
+| Nationality                    | 
+| Birth Date                     | 
+| Expiry Date                    | 
 
 
 ## Check Digits
@@ -98,7 +98,3 @@ A-Z0-9 followed by check digit
 
 ### Country Codes
 1. Alpha 3 Codes
-
-## Transliteration
-
-Letter -> Unicode -> A-Z (1..n)
